@@ -9,7 +9,7 @@ class BandCountSelector extends Component {
   
   render() {
     return (
-      <div>
+      <div className='py4'>
         <p>Band count: </p>
         <RaisedButton label="4" 
           primary={this.props.bandCount == 4} 
