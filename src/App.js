@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import AppBar from 'material-ui/AppBar';
 
@@ -23,7 +24,6 @@ class App extends Component {
   }
 
   render() {
-  
 
     return (
       <div className='max-width-4 mx-auto center'>
@@ -34,6 +34,7 @@ class App extends Component {
             onSelect={(n)=>this.onSelect(n)}/>
         </MuiThemeProvider>
         <Resistor bandCount={this.state.bandCount}/>
+        <p>foo</p>
        </div>   
     );
   }
